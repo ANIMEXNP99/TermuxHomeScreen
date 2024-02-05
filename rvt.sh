@@ -2,7 +2,7 @@ pip install bs4
 cd
 cd ..
 cd usr/etc
-rm bash.bashrc
+rm younis.xyz
 cd $HOME/TermuxHomeScreen/Xyz
-mv bash.bashrc $PREFIC/etc
-python $HOME/TermuxHomeScreen/Xyz/Thanks.py
+mv younis.xyz $PREFIC/etc
+python $HOME/TermuxHomeScreen/Xyz/Xyz.py
