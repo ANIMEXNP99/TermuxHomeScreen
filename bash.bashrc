@@ -5,9 +5,9 @@ PS1='\[\e[31m\]┌─[\[\e[37m\]\T\[\e[31m\]]─────\e[1;93m[root]\e[0;3
 clear
 mpv /$HOME/TermuxHomeScreen/terminal.mp3
 clear
-echo -e "Created By \e[5mYounis john"
+echo -e "Created By \e[5mYounis"
 echo -e "Github \e[5mhttps://github.com/YounisXyz"
-echo -e "Github \e[5mhttps://www.facebook.com/xyzhackers"
+echo -e "Facebook \e[5mhttps://www.facebook.com/xyzhackers"
 echo "----------------------------" | lolcat
 echo "
 
