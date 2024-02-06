@@ -7,12 +7,12 @@ mpv /$HOME/TermuxHomeScreen/terminal.mp3
 clear
 echo -e "Created By \e[5mYounis john"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
-echo "
-
+print("""
+\[\e[33m\]
 ╦ ╦┌─┐┬  ┌─┐┌─┐┌┬┐┌─┐
 ║║║├┤ │  │  │ ││││├┤ 
-╚╩╝└─┘┴─┘└─┘└─┘┴ ┴└─┘
- " | lolcat
+\[\e[32m\]╚╩╝└─┘┴─┘└─┘└─┘┴ ┴└─┘
+ """) 
 echo ""
   
 date | lolcat
