@@ -5,15 +5,14 @@ PS1='\[\e[31m\]┌─[\[\e[37m\]\T\[\e[31m\]]─────\e[1;93m[root]\e[0;3
 clear
 mpv /$HOME/TermuxHomeScreen/terminal.mp3
 clear
-green="\xb1[1;92m"
 echo -e "Created By \e[5mYounis john"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
-print(f"""
-{green}
+echo "
+
 ╦ ╦┌─┐┬  ┌─┐┌─┐┌┬┐┌─┐
 ║║║├┤ │  │  │ ││││├┤ 
 ╚╩╝└─┘┴─┘└─┘└─┘┴ ┴└─┘
- """) 
+ " | lolcat
 echo ""
   
 date | lolcat
